@@ -48,6 +48,9 @@ input{
 
 input.visor{
     padding: 1.5rem;
-    width: 190px;
+    width: 192px;
     cursor: default;
+}
+input.sidebtn{
+    width: 75px;
 }
