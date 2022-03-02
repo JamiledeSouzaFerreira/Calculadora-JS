@@ -8,31 +8,32 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <div class="cabeçalho">
-        <h1>Calculadora JS</h1>
-    </div><!--cabeçalho-->
+    
     <div class="corpo">
+        <div class="cabeçalho">
+            <h1>Calculadora JS</h1>
+        </div><!--cabeçalho-->
         <form action="" name="Calculadora">
-            <input type="text" name="txt" id="" disabled>
-            <input type="button" value="C" onclick="location.reload()"><br>
+            <input type="text" class="visor" name="txt" id="" disabled>
+            <input type="button" class="c"  value="C" onclick="location.reload()"><br>
 
             <input type="button" class="btnnumber" name="btn7" value="7" onclick="calcular(btn7.value)">
             <input type="button" class="btnnumber" name="btn8" value="8" onclick="calcular(btn8.value)">
             <input type="button" class="btnnumber" name="btn9" value="9" onclick="calcular(btn9.value)">
-            <input type="button" class="" name="divbtn" value="/" onclick="calcular(btndiv.value)"><br>
+            <input type="button" class="" name="divbtn" value="/ " onclick="calcular(btndiv.value)"><br>
 
             <input type="button" class="btnnumber" name="btn4" value="4" onclick="calcular(btn4.value)">
             <input type="button" class="btnnumber" name="btn5" value="5" onclick="calcular(btn5.value)">
             <input type="button" class="btnnumber" name="btn6" value="6" onclick="calcular(btn6.value)">
-            <input type="button" class="" name="multbtn" value="*" onclick="calcular(multbtn.value)"><br>
+            <input type="button" class="" name="multbtn" value="* " onclick="calcular(multbtn.value)"><br>
 
             <input type="button" class="btnnumber" name="btn1" value="1" onclick="calcular(btn1.value)">
             <input type="button" class="btnnumber" name="btn2" value="2" onclick="calcular(btn2.value)">
             <input type="button" class="btnnumber" name="btn3" value="3" onclick="calcular(btn3.value)">
-            <input type="button" class="" name="menbtn" value="-" onclick="calcular(menbtn.value)"><br>
+            <input type="button" class="" name="menbtn" value="- " onclick="calcular(menbtn.value)"><br>
 
-            <input type="button" class="" name="dotbtn" value="." onclick="calcular(dotbtn.value)">
-            <input type="button" class=btnnumber"" name="btn0" value="0" onclick="calcular(btn0.value)">
+            <input type="button" class="" name="dotbtn" value=" ." onclick="calcular(dotbtn.value)">
+            <input type="button" class="brtnnumber" name="btn0" value="0" onclick="calcular(btn0.value)">
             <input type="button" class="" name="equalbtn" value="=" onclick="txt.value=eval(txt.value)">
             <input type="button" class="" name="addbtn" value="+" onclick="calcular(addbtn.value)">
         </form>
